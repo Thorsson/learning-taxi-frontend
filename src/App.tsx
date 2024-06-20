@@ -1,15 +1,17 @@
-import Sidebar from './components/Sidebar';
+// import Sidebar from './components/Sidebar';
+import LoadingPage from './pages/loadingPage/LoadingPage';
 import './styles.scss';
 
 function App() {
   return (
     <>
-      <Sidebar />
+      {/* <Sidebar /> */}
 
       {/* scss working test example */}
-      <div className="app">
+      {/* <div className="app">
         <h1>Hello, world!</h1>
-      </div>
+      </div> */}
+      <LoadingPage/>
     </>
     
   );
