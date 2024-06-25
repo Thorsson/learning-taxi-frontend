@@ -1,15 +1,12 @@
-import Sidebar from './components/Sidebar';
+import ConfirmRegistration from './pages/ConfirmRegistration';
+import FormRegistration from './pages/FormRegistration';
 import './styles.scss';
+
 
 function App() {
   return (
     <>
-      <Sidebar />
-
-      {/* scss working test example */}
-      <div className="app">
-        <h1>Hello, world!</h1>
-      </div>
+      <FormRegistration />
     </>
     
   );
